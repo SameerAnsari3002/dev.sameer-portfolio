@@ -11,6 +11,14 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    useEffect(() => {
+    window.scrollTo(0, 0);
+    const homeElement = document.getElementById('home');
+    if (homeElement) {
+      homeElement.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+  }, []);
+
   const scrollToSection = (section) => {
     setActiveSection(section);
     setIsMenuOpen(false);
