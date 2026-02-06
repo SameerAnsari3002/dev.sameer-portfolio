@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -11,7 +11,8 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    useEffect(() => {
+  // Scroll to home section on page load/refresh
+  useEffect(() => {
     window.scrollTo(0, 0);
     const homeElement = document.getElementById('home');
     if (homeElement) {
