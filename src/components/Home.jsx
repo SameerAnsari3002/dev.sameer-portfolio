@@ -5,7 +5,7 @@ function Home({ scrollToSection }) {
   return (
     <section id="home" className="home-section">
       <div className="home-content">
-        <h1 className="home-greeting">Hi, I'm <span className='home-name'>Md Sameer Ansari</span></h1>
+        <h1 className="home-greeting">Hi, I'm <br className='home-name-br' /><span className='home-name'>Md Sameer Ansari</span></h1>
         <h2 className="home-greeting">Web Devloper</h2>
         <p className="home-description">
           I’m a web developer with a strong interest in building responsive and user-friendly web applications. 

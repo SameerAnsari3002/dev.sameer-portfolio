@@ -19,7 +19,7 @@ function Contact() {
             Email Me
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/SameerAnsari3002"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn contact-btn-secondary"
@@ -27,7 +27,7 @@ function Contact() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/md-sameer-ansari-784733269/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn contact-btn-secondary"
